@@ -9,6 +9,7 @@ This entire repo will be very NVidia-specific. I don't have an AMD GPU and don't
 For the scripts in this repo, you must generally have the following:
 - nvidia-375
 - nvidia-prime
+- kernel 4.10 and newer (older kernels may work, but not tested)
 
 ## Specifics:
 
