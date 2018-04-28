@@ -1,4 +1,4 @@
-## eGPU Hacks
+## eGPU Scripts
 This repo is dedicated to all the scripts I write to make my Akitio Node eGPU run as smoothly as possible on Linux, OSX and Windoze.
 
 Linux will be fairly Ubuntu-specific, not because I love Ubuntu, but simply because it's what I use everyday for work.
