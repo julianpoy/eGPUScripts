@@ -7,13 +7,13 @@ This entire repo will be very NVidia-specific. I don't have an AMD GPU and don't
 
 ## Requirements
 For the scripts in this repo, you must generally have the following:
-- nvidia-375
+- nvidia-387
 - nvidia-prime
 - kernel 4.10 and newer (older kernels may work, but not tested)
 
 ## Specifics:
 
-### switchGraphics.sh
+### switchGraphics-GDM.sh and switchGraphics-LightDM.sh
 This is for hotplugging in Ubuntu. Run the script, follow the prompts.
 
 For EXTERNAL MONITOR ONLY. Don't expect any internal monitor fancyness, I haven't gotten that far yet.
