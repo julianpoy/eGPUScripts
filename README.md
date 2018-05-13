@@ -6,10 +6,17 @@ Linux will be fairly Ubuntu-specific, not because I love Ubuntu, but simply beca
 This entire repo will be very NVidia-specific. I don't have an AMD GPU and don't plan to purchase one.
 
 ## Requirements
-For the scripts in this repo, you must generally have the following:
-- nvidia-387
-- nvidia-prime
+- nvidia-387 and nvidia-prime
+
+``` sudo add-apt-repository ppa:graphics-drivers/ppa ```
+
+``` sudo apt-get update ```
+
+``` sudo apt-get install nvidia-387 nvidia-prime```
+
 - kernel 4.10 and newer (older kernels may work, but not tested)
+
+``` http://kernel.ubuntu.com/~kernel-ppa/mainline/ ```
 
 ## Specifics:
 
